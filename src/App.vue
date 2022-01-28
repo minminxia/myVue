@@ -4,11 +4,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent, PropType } from "vue";
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
   },
@@ -17,11 +17,7 @@ export default defineComponent({
       type: Number as PropType<number>,
     },
   },
-  setup(props) {
-    props.age
-    return {}
-  },
-})
+});
 </script>
 
 <style>
