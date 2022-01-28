@@ -3,7 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "jsx": "preserve",
+    "jsx": "preserve", //让babel去编译
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
